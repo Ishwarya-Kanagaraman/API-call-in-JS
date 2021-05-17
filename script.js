@@ -4,17 +4,17 @@ fetch('https://609e2a6033eed80017957df0.mockapi.io/users',{method:'GET'})
  .then(data=>{
   
   for(var i=0;i<data.length;i++){
-    var div= document.createElement('div');
+    const div= document.createElement('div');
     div.setAttribute('class','container ');
 
 
     //for text
-    var p=document.createElement('h3');
+    const p=document.createElement('h3');
     p.innerText=data[i].name;
    
 
     // for image
-    var img=document.createElement('img');
+    const img=document.createElement('img');
     img.setAttribute('class','img');
     img.setAttribute('src',data[i].avatar);
     div.append(img);
