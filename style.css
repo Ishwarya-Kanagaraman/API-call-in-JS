@@ -1,0 +1,10 @@
+.container{
+    background:pink;
+   text-align: center;
+   border:3px solid rgb(161, 24, 88)
+}
+.img{
+    border-radius: 50%;
+    border:3px solid rgb(161, 24, 88);
+    box-shadow: 3px 6px 10px 2px rgb(161, 24, 88);
+}
